@@ -1,0 +1,36 @@
+.cabeca {
+    background-color: rgb(209, 114, 155);
+    padding: 5px;
+    text-align: start;
+    border-bottom: 1px solid black;
+    color: rgb(225, 210, 123);
+}
+
+.menu {
+    background-color: rgb(238, 164, 194);
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    float: left;
+}
+
+.menu a:hover {
+    background-color: rgb(228, 162, 190);
+    color: rgb(255, 251, 0);
+}
+
+.colLat {
+    float: left;
+}
+
+.colCen {
+    float: left;
+}
+
+body {
+    margin: 0px;
+}
