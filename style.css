@@ -3,7 +3,7 @@
     padding: 5px;
     text-align: start;
     border-bottom: 1px solid black;
-    color: rgb(225, 210, 123);
+    color: rgb(255, 217, 0);
 }
 
 .menu {
@@ -19,7 +19,7 @@
 }
 
 .menu a:hover {
-    background-color: rgb(228, 162, 190);
+    background-color: rgba(209, 114, 155, 0.452);
     color: rgb(255, 251, 0);
 }
 
