@@ -1,9 +1,8 @@
 .cabeca {
-    background-color: rgb(209, 114, 155);
+    background-color: rgb(241, 98, 160);
     padding: 5px;
     text-align: start;
-    border-bottom: 1px solid black;
-    color: rgb(255, 217, 0);
+    color: rgb(251, 255, 0);
 }
 
 .menu {
@@ -11,36 +10,63 @@
 }
 
 .menu a {
-    color: black;
+    color: rgb(251, 255, 0);
     text-decoration: none;
     padding: 10px;
     display: block;
     float: left;
+    background-color: rgb(245, 126, 178);
+    box-sizing: border-box;
+    width: 25%;
+    text-align: center;
 }
 
 .menu a:hover {
-    background-color: rgba(209, 114, 155, 0.452);
-    color: rgb(255, 251, 0);
+    background-color: rgba(245, 126, 178, 0.712);
 }
 
 .colLat {
     float: left;
-    padding: 10px;
     width: 20%;
-    background-color: rgb(209, 114, 155);
+    padding: 10px;
+    background-color: rgba(209, 114, 155, 0.404);
+    box-sizing: border-box;
 }
 
 .colCen {
     float: left;
-    padding: 10px;
     width: 60%;
-    background-color: bisque;
+    padding: 10px;
+    background-color: rgba(255, 251, 0, 0.151);
+    box-sizing: border-box;
 }
 
 .conteudo {
     clear: both;
 }
-    
+
+.colCen h2 {
+    text-align: center;
+}
+
+.colCen p {
+    text-align: justify;
+}
+
+.rodape {
+    text-align: center;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(209, 114, 155, 0.404);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.rodape p {
+    padding: 25px;
+}
+
 body {
     margin: 0px;
+    color: rgb(226, 51, 138);
 }
