@@ -30,8 +30,13 @@
 
 .colCen {
     float: left;
+    
 }
 
+.conteudo {
+    clear: both;
+}
+    
 body {
     margin: 0px;
 }
